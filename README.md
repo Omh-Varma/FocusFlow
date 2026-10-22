@@ -1,29 +1,43 @@
-# Welcome to your Lovable project
+# 🚀 FocusFlow — Student Productivity Dashboard
 
-This project was built with [Lovable](https://lovable.dev).
+An enterprise-grade, high-performance student dashboard designed to turn scattered assignments and study schedules into an actionable daily view. Built with a vibrant Neobrutalist design language, tactile micro-interactions, and a robust feature set.
 
-## Build with Lovable
+🔗 **Live Preview:** [https://preview-reflection-room.lovable.app](https://preview-reflection-room.lovable.app)
 
-Open your project in the [Lovable editor](https://lovable.dev) and keep building.
+---
 
-- **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: connect the project to GitHub and every change made in Lovable is committed straight to your repository.
-- **Full ownership**: this code is yours. Push to your repository and your changes sync back into Lovable, ready for your next prompt.
+## ✨ Features & Capabilities
 
-## Development
+### 📋 Core Requirements
+- **Comprehensive Task Management:** Create, edit, and organize tasks with specific attributes including **Title, Subject, Deadline Date, Priority (High/Medium/Low), and Completion State**.
+- **Actionable Daily Overview:** Dynamically splits your workflow into **Today's Tasks**, **Overdue Tasks**, and **Upcoming Deadlines**.
+- **Advanced Filtering:** Filter tasks seamlessly by subject and priority levels simultaneously.
+- **Local Persistence:** Automatic state synchronization using `localStorage` so your data remains intact across page reloads.
 
-Prefer working locally? You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
+### 🌟 Brownie Points & Advanced Enhancements
+- **Drag-and-Drop Priority Kanban Board:** Seamlessly move tasks across columns (*To Do*, *In Progress*, *Done*) with instant state updates.
+- **Dynamic Daily Progress Ring:** Visual completion meter that calculates your daily task completion percentage in real time.
+- **Keyboard Shortcuts & Command Palette:** Quick hotkey navigation (`Cmd/Ctrl + K`) to search or trigger actions instantly.
+- **Dark / Light Theme Switcher:** Fully functional theme toggling with persisted user preference.
+- **Customizable Pomodoro Focus Timer:** Built-in timer with default 25-minute focus blocks and customizable duration controls.
+- **Responsive Mobile Layout:** Fully adaptive design optimized for both desktop and mobile viewports.
 
-```sh
-git clone <this-repository-url>
-cd <repository-name>
-npm i
-npm run dev
-```
+---
 
-## Built with
+## 🛠️ Tech Stack & Architecture
 
-- TanStack Start
-- TypeScript
-- React
-- Tailwind CSS
+- **Frontend Framework:** React + Vite (TypeScript)
+- **Styling:** Tailwind CSS (Neobrutalist & Pastel Design System)
+- **Icons:** Lucide React
+- **State & Persistence:** React Context, Custom Hooks, and `localStorage`
+
+---
+
+## 🚀 Getting Started Locally
+
+Follow these steps to run the project locally on your machine:
+
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/Omh-Varma/FocusFlow.git](https://github.com/Omh-Varma/FocusFlow.git)
+   cd FocusFlow
