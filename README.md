@@ -2,7 +2,7 @@
 
 An enterprise-grade, high-performance student dashboard designed to turn scattered assignments and study schedules into an actionable daily view. Built with a vibrant Neobrutalist design language, tactile micro-interactions, and a robust feature set.
 
-🔗 **Live Preview:** [https://preview-reflection-room.lovable.app](https://preview-reflection-room.lovable.app)
+🌐 **[Live Demo & Interactive Preview](https://preview-reflection-room.lovable.app)**
 
 ---
 
